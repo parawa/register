@@ -1,13 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400&display=swap'); 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'IBM Plex Sans Thai', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'IBM Plex Sans Thai', sans-serif !important;
+}
+.Box{
+  background-color: aliceblue;
+  width: 90%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.Row-Box-table{
+  display: flex;
+  flex-flow: row wrap;
+  min-width: 0;
+  justify-content: center;
+}
+.table{
+  margin: 20px 20px 20px 20px;
+}
+.Row-search{
+  margin: 20px 20px 20px 20px;
+
+}
+.Button-addData{
+  display: flex;
+  justify-content: flex-end;
+
+}
+.Button{
+  width: 120px;
+  height: 40px;
+  margin-left: 10px;
+  background-color: #faad14;
+  border-color: #faad14;
+  color: #ffffff;
+ 
+}
+:where(.css-dev-only-do-not-override-1g853jt).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+  color: #faad14;
+  background-color: #ffffff;
+  border-color: #faad14;
+}
+
+.title-font{
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 1.5rem;
+   margin-top: 10px;
+   font-family: 'IBM Plex Sans Thai', sans-serif;
+
 }
